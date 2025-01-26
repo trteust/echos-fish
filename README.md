@@ -10,7 +10,8 @@
 | Alias | Long Form                                   | Description                                       |
 | ----- | ------------------------------------------- | ------------------------------------------------- |
 | cgh   | `git clone git@github.com:hpcontrols/$argv` | Clones repository from specific github org.       |
-| ga    | `git add $argv[1..-1]`                      | Adds all passed files.
+| cght  | `git clone git@github.com:trteust/$argv`    | Clones repository from specific github org.       |
+| ga    | `git add $argv[1..-1]`                      | Adds all passed files. If no files, interactive.  |
 | gc    | `git commit -m "$argv"`                     | Commits with message.                             |
 | gm    | `git merge $argv`                           | Merges with optional source.                      |
 | gpsh  | `git push`                                  | Pushes changes to remote.                         |
