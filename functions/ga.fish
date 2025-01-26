@@ -1,7 +1,7 @@
 function ga
-  if test -d $argv
-    command git add -i
-  else
+  if count $argv > /dev/null
     command git add $argv[1..-1]
+  else
+    command git add -i
   end
 end
