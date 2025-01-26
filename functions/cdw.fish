@@ -1,3 +1,3 @@
 function cdf
-  command cd ~/work/$argv
+  cd ~/work/$argv
 end
