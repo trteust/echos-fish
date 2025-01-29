@@ -10,7 +10,9 @@ Complete list can be found in by looking through the functions/ folder.
 
 | Alias | Long Form                                   | Description                                       |
 | ----- | ------------------------------------------- | ------------------------------------------------- |
-| ga    | `git add $argv[1..-1]`                      | Adds all passed files. If no files, interactive.  |
+| cgh   | `git clone git@github.com:hpcontrols/$argv` | Clones repository from specific github org.       |
+| caur  | `git clone https://aur.archlinux.com/$argv` | Clones repository from Arch User Repository       |
+| ga    | `git add $argv[1..-1]`                      | Adds all passed files.                            |
 | gc    | `git commit -m "$argv"`                     | Commits with message.                             |
 | gm    | `git merge $argv`                           | Merges with optional source.                      |
 | gpsh  | `git push`                                  | Pushes changes to remote.                         |
