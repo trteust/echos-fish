@@ -8,6 +8,8 @@ abbr -a ga git add
 abbr -a gaa git add -A
 abbr -a gsw git switch
 abbr -a --set-cursor=% gc git commit -m \"%\"
+abbr -a gai git add -i
+abbr -a gd git diff
 
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
 export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
