@@ -11,3 +11,4 @@ abbr -a gsw git switch
 abbr -a --set-cursor=% gc git commit -m \"%\"
 abbr -a gai git add -i
 abbr -a gd git diff
+abbr -a lg "git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
